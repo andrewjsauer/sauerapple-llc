@@ -16,7 +16,7 @@ const crimsonText = Crimson_Text({
 export const metadata: Metadata = {
   title: "sauerApple (sour apple)",
   description:
-    "sauerApple LLC is a software development company specializing in fullstack web and mobile applications.",
+    "sauerApple LLC is a software development company specializing in fullstack web and mobile applications in Big Bear, CA.",
 };
 
 export default function RootLayout({
