@@ -25,7 +25,7 @@
   font-weight: 400;
   line-height: 1.8em;
   font-size: 1.4rem;
-  font-family: var(--font-crimson-text);
+  font-family: var(--font-roboto);
   text-decoration: none;
   padding: 0.1em 0;
   color: #1d231c;
@@ -173,7 +173,7 @@
 
 @media (max-width: 850px) {
   .main {
-    padding: 1em 4em;
+    padding: 1em 2em;
   }
 
   .header {
@@ -198,7 +198,7 @@
     font-weight: 400;
     line-height: 1.8em;
     font-size: 1.2rem;
-    font-family: var(--font-crimson-text);
+    font-family: var(--font-roboto);
     text-decoration: none;
     padding: 0.1em 0;
     color: #1d231c;
@@ -221,7 +221,7 @@
   }
 
   .headline {
-    font-size: 3.5rem;
+    font-size: 2.8rem;
     font-weight: 600;
     font-family: var(--font-roboto);
     text-align: center;
@@ -236,13 +236,17 @@
     grid-template-columns: auto;
     gap: 1em;
     margin-top: 1rem;
-    justify-items: center;
+    justify-items: flex-start;
   }
 
   .experienceItem p {
     font-size: 1.2rem;
     font-weight: 400;
     font-family: var(--font-crimson-text);
+  }
+
+  .experienceItem span {
+    display: none;
   }
 
   .projectContainer {
@@ -268,7 +272,7 @@
 
   .projectLinkContainer {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     flex-direction: column;
   }
@@ -280,6 +284,7 @@
     font-size: 1rem;
     font-family: var(--font-roboto);
     margin-top: 0.5em;
+    display: none;
   }
 
   .projectLink {
@@ -289,7 +294,7 @@
     text-decoration: none;
     line-height: 1.4em;
     color: #1d231c;
-    border-bottom: 1px solid transparent;
+    border-bottom: 1px solid #1d231c;
   }
 
   .projectLink:hover,
@@ -342,7 +347,6 @@
   .footer p {
     font-size: 1.2rem;
     font-weight: 400;
-    margin-top: 0.5em;
     font-family: var(--font-crimson-text);
   }
 }

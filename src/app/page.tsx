@@ -142,7 +142,6 @@ export default function Home() {
         </div>
         <div className={styles.footer}>
           <p>© {new Date().getFullYear()} sauerApple. All rights reserved.</p>
-          <p>Made with love in Southern California</p>
         </div>
       </div>
     </main>
