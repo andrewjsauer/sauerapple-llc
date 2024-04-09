@@ -27,12 +27,9 @@ export default function Home() {
             <span>__________________________________</span>
             <p>intro</p>
             <p>
-              Don&apos;t worry about the technical stuff. We&apos;ve got your
-              back. We build custom web and mobile applications that are
-              tailored to your needs. We&apos;ll help you create a clean and
-              professional site that showcases your brand, or we&apos;ll help
-              you develop a mobile app that&apos;s easy to use and visually
-              appealing. Take a look at some of our projects below.
+              Welcome! Our team boasts alumni from Tinder to Warner Bros, we
+              specialize in crafting custom web and mobile solutions tailored
+              just for you. Explore some of our projects below.
             </p>
           </div>
         </div>
