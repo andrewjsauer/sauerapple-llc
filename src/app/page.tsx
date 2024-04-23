@@ -1,4 +1,5 @@
 import styles from "./page.module.css";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -37,7 +38,7 @@ export default function Home() {
           <div className={styles.projectItem}>
             <span>01</span>
             <div className={styles.projectLinkContainer}>
-              <a
+              <Link
                 className={styles.projectLink}
                 href="https://permits.sgwa.org/"
                 target="_blank"
@@ -45,7 +46,7 @@ export default function Home() {
                 aria-label="San Gorgonio Wilderness Permit Portal (opens in a new tab)"
               >
                 permit portal
-              </a>
+              </Link>
             </div>
             <p>
               A a web application tailored for the San Gorgonio Wilderness
@@ -58,7 +59,7 @@ export default function Home() {
           <div className={styles.projectItem}>
             <span>02</span>
             <div className={styles.projectLinkContainer}>
-              <a
+              <Link
                 className={styles.projectLink}
                 href="https://switchbacks.app/"
                 target="_blank"
@@ -66,7 +67,7 @@ export default function Home() {
                 aria-label="San Gorgonio Wilderness Trail Conditions (opens in a new tab)"
               >
                 switchbacks
-              </a>
+              </Link>
             </div>
             <p>
               A trail conditions web application designed for hikers and
@@ -93,7 +94,7 @@ export default function Home() {
           <div className={styles.projectItem}>
             <span>04</span>
             <div className={styles.projectLinkContainer}>
-              <a
+              <Link
                 className={styles.projectLink}
                 href="https://www.daily-qs.com/"
                 target="_blank"
@@ -101,7 +102,7 @@ export default function Home() {
                 aria-label="Daily Q's (opens in a new tab)"
               >
                 daily q’s
-              </a>
+              </Link>
             </div>
             <p>
               An app for couples in love. Daily Q’s encourages new shares,
@@ -112,29 +113,36 @@ export default function Home() {
           <div className={styles.projectItem}>
             <span>05</span>
             <div className={styles.projectLinkContainer}>
-              <h3>big bear conditions</h3>
-              <span>(coming soon)</span>
+              <Link
+                className={styles.projectLink}
+                href="https://www.bigbearconditions.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Big Bear Conditions (opens in a new tab)"
+              >
+                big bear conditions
+              </Link>
             </div>
             <div className={styles.projectLinkContainer}>
               <p>
-                Big Bear Conditions is an upcoming web application for the Big
-                Bear area, offering locals and visitors a platform to check and
-                share the latest weather and road conditions. This
-                community-driven tool aims to ensure safe and enjoyable
-                experiences for all visiting or living in the area.
+                Big Bear Conditions is a web application for the Big Bear area,
+                offering locals and visitors a platform to check and share the
+                latest weather and road conditions. This community-driven tool
+                aims to ensure safe and enjoyable experiences for all visiting
+                or living in the area.
               </p>
             </div>
           </div>
         </div>
         <div className={styles.contactContainer}>
-          <a
+          <Link
             className={styles.contactLink}
             href="mailto:andrew@sauerapple.com"
             rel="noopener noreferrer"
             aria-label="Email sauerApple (opens in a new tab)"
           >
             Get in Touch.
-          </a>
+          </Link>
         </div>
         <div className={styles.footer}>
           <p>© {new Date().getFullYear()} sauerApple. All rights reserved.</p>
