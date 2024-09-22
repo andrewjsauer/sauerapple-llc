@@ -21,7 +21,7 @@ export default function Home() {
 
       <div className={styles.container}>
         <h2 className={styles.headline}>
-          Taking swings at building engaging web and mobile applications.
+          Building engaging web and mobile applications.
         </h2>
         <div className={styles.experienceContainer}>
           <div className={styles.experienceItem}>
@@ -130,6 +130,28 @@ export default function Home() {
                 latest weather and road conditions. This community-driven tool
                 aims to ensure safe and enjoyable experiences for all visiting
                 or living in the area.
+              </p>
+            </div>
+          </div>
+          <div className={styles.projectItem}>
+            <span>06</span>
+            <div className={styles.projectLinkContainer}>
+              <Link
+                className={styles.projectLink}
+                href="https://rag-big-bear-water-project-njkz.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Replenish Big Bear Chatbot (opens in a new tab)"
+              >
+                replenish big bear chatbot
+              </Link>
+            </div>
+            <div className={styles.projectLinkContainer}>
+              <p>
+                Replenish Big Bear Chatbot is Retrieval-Augmented Generation
+                (RAG) app for a city project called Replenish Big Bear, which
+                provided residents with real-time access to water sustainability
+                information through AI-driven responses.
               </p>
             </div>
           </div>
