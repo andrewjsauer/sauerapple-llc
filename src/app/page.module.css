@@ -28,14 +28,14 @@
   font-family: var(--font-roboto);
   text-decoration: none;
   padding: 0.1em 0;
-  color: #1d231c;
-  border-bottom: 1px solid transparent;
+  color: #fff;
+  border-bottom: 0.5px solid transparent;
 }
 
 .socialLink:hover,
 .socialLink:focus-visible {
   color: #e1dfd9;
-  border-bottom: 1px solid #e1dfd9;
+  border-bottom: 0.5px solid #e1dfd9;
   outline: none;
 }
 
@@ -44,7 +44,7 @@
   justify-content: center;
   flex-direction: column;
   width: 100%;
-  margin: 6em 0 4em 0;
+  margin: 6em 0 1em 0;
 }
 
 .headline {
@@ -68,7 +68,7 @@
 .experienceItem p {
   font-size: 1.4rem;
   font-weight: 400;
-  font-family: var(--font-crimson-text);
+  font-family: var(--font-roboto);
 }
 
 .projectContainer {
@@ -86,7 +86,7 @@
   font-size: 3rem;
   font-weight: 700;
   font-family: var(--font-roboto);
-  color: #1d231c;
+  color: #fff;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -113,22 +113,22 @@
   font-weight: 700;
   font-family: var(--font-roboto);
   text-decoration: none;
-  line-height: 1.4em;
-  color: #1d231c;
-  border-bottom: 1px solid transparent;
+  line-height: 1.2em;
+  color: #fff;
+  border-bottom: 0.5px solid transparent;
 }
 
 .projectLink:hover,
 .projectLink:focus-visible {
-  color: #e1dfd9;
-  border-bottom: 1px solid #e1dfd9;
+  color: #211a28;
+  border-bottom: 0.5px solid #211a28;
   outline: none;
 }
 
 .projectItem p {
   font-size: 1.4rem;
   font-weight: 400;
-  font-family: var(--font-crimson-text);
+  font-family: var(--font-roboto);
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -145,18 +145,19 @@
   font-weight: 700;
   font-family: var(--font-roboto);
   text-decoration: none;
-  line-height: 1.4em;
-  color: #1d231c;
-  border-bottom: 1px solid #1d231c;
+  line-height: 1.2em;
+  color: #fff;
+  border-bottom: 0.5px solid #fff;
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  outline: none;
 }
 
 .contactLink:hover,
 .contactLink:focus-visible {
-  color: #e1dfd9;
-  border-bottom: 1px solid #e1dfd9;
+  color: #211a28;
+  border-bottom: 0.5px solid #211a28;
 }
 
 .footer {
@@ -168,7 +169,20 @@
 .footer p {
   font-size: 1.2rem;
   font-weight: 400;
-  font-family: var(--font-crimson-text);
+  font-family: var(--font-roboto);
+}
+
+.personalLink {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 0.5px solid #fff;
+}
+
+.personalLink:hover,
+.personalLink:focus-visible {
+  color: #211a28;
+  border-bottom: 0.5px solid #211a28;
+  outline: none;
 }
 
 @media (max-width: 850px) {
@@ -201,14 +215,14 @@
     font-family: var(--font-roboto);
     text-decoration: none;
     padding: 0.1em 0;
-    color: #1d231c;
-    border-bottom: 1px solid transparent;
+    color: #fff;
+    border-bottom: 0.5px solid transparent;
   }
 
   .socialLink:hover,
   .socialLink:focus-visible {
-    color: #e1dfd9;
-    border-bottom: 1px solid #e1dfd9;
+    color: #211a28;
+    border-bottom: 0.5px solid #211a28;
     outline: none;
   }
 
@@ -217,7 +231,7 @@
     justify-content: center;
     flex-direction: column;
     width: 100%;
-    margin: 6em 0 4em 0;
+    margin: 6em 0 1em 0;
   }
 
   .headline {
@@ -242,7 +256,7 @@
   .experienceItem p {
     font-size: 1.2rem;
     font-weight: 400;
-    font-family: var(--font-crimson-text);
+    font-family: var(--font-roboto);
   }
 
   .experienceItem span {
@@ -264,7 +278,7 @@
     font-size: 1.8rem;
     font-weight: 700;
     font-family: var(--font-roboto);
-    color: #1d231c;
+    color: #fff;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -292,22 +306,22 @@
     font-weight: 700;
     font-family: var(--font-roboto);
     text-decoration: none;
-    line-height: 1.4em;
-    color: #1d231c;
-    border-bottom: 1px solid #1d231c;
+    line-height: 1.2em;
+    color: #fff;
+    border-bottom: 0.5px solid #fff;
   }
 
   .projectLink:hover,
   .projectLink:focus-visible {
-    color: #e1dfd9;
-    border-bottom: 1px solid #e1dfd9;
+    color: #211a28;
+    border-bottom: 0.5px solid #211a28;
     outline: none;
   }
 
   .projectItem p {
     font-size: 1.2rem;
     font-weight: 400;
-    font-family: var(--font-crimson-text);
+    font-family: var(--font-roboto);
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -325,9 +339,9 @@
     font-weight: 700;
     font-family: var(--font-roboto);
     text-decoration: none;
-    line-height: 1.4em;
-    color: #1d231c;
-    border-bottom: 1px solid #1d231c;
+    line-height: 1.2em;
+    color: #fff;
+    border-bottom: 0.5px solid #fff;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -335,8 +349,8 @@
 
   .contactLink:hover,
   .contactLink:focus-visible {
-    color: #e1dfd9;
-    border-bottom: 1px solid #e1dfd9;
+    color: #211a28;
+    border-bottom: 0.5px solid #211a28;
   }
 
   .footer {
@@ -347,6 +361,6 @@
   .footer p {
     font-size: 1.2rem;
     font-weight: 400;
-    font-family: var(--font-crimson-text);
+    font-family: var(--font-roboto);
   }
 }

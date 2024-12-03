@@ -14,9 +14,21 @@ const crimsonText = Crimson_Text({
 });
 
 export const metadata: Metadata = {
-  title: "sauerApple (like sour apple)",
+  title: "sauerApple - Technology for Mountain Towns & Outdoor Spaces",
   description:
-    "sauerApple LLC is a software development company specializing in fullstack web and mobile applications in the mountains of Southern California.",
+    "sauerApple LLC specializes in creating innovative software solutions for mountain towns and outdoor spaces, blending AI, sustainability, and community-driven development.",
+  keywords: [
+    "mountain towns",
+    "outdoor technology",
+    "AI solutions",
+    "sustainability",
+    "Big Bear",
+    "software development",
+    "tourism tech",
+  ],
+  authors: [{ name: "Andrew Sauer", url: "https://sauerapple.com" }],
+  viewport: "width=device-width, initial-scale=1",
+  themeColor: "#346830",
 };
 
 export default function RootLayout({

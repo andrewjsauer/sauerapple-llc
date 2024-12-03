@@ -21,16 +21,30 @@ export default function Home() {
 
       <div className={styles.container}>
         <h2 className={styles.headline}>
-          Building engaging web and mobile applications.
+          Innovation for Mountain Towns and Outdoor Spaces
         </h2>
         <div className={styles.experienceContainer}>
           <div className={styles.experienceItem}>
             <span>__________________________________</span>
             <p>intro</p>
             <p>
-              Welcome! Our team boasts alumni from Tinder to Warner Bros, we
-              specialize in crafting custom web and mobile solutions tailored
-              just for you. Explore some of our projects below.
+              We combine innovation with a passion for the outdoors.
+              Specializing in technology solutions for mountain towns and
+              outdoor spaces, we empower communities and elevate tourism
+              experiences. By leveraging AI and cutting-edge tools, we create
+              smarter, more sustainable ways to explore, plan, and connect with
+              the natural beauty and vibrant charm of mountain living.
+            </p>
+          </div>
+        </div>
+        <div className={styles.experienceContainer}>
+          <div className={styles.experienceItem}>
+            <span>__________________________________</span>
+            <p>projects</p>
+            <p>
+              These projects represent just a glimpse into our expertise in
+              blending cutting-edge tools with community-driven goals to create
+              meaningful, impactful solutions.
             </p>
           </div>
         </div>
@@ -49,11 +63,10 @@ export default function Home() {
               </Link>
             </div>
             <p>
-              A a web application tailored for the San Gorgonio Wilderness
-              Association, simplifying the process of managing and applying for
-              wilderness permits. This tool allows the association to
-              efficiently handle applications and reservations, providing hikers
-              with an accessible online platform to secure their permits.
+              A web application for the San Gorgonio Wilderness Association and
+              Cucamonga Wilderness, streamlining permit management. This tool
+              simplifies applications and reservations, making it easier for
+              hikers to access and enjoy the wilderness responsibly.
             </p>
           </div>
           <div className={styles.projectItem}>
@@ -70,48 +83,14 @@ export default function Home() {
               </Link>
             </div>
             <p>
-              A trail conditions web application designed for hikers and
-              backpackers exploring the San Gorgonio Wilderness. Users can share
-              and access the latest trail conditions, enhancing their hiking
-              experience. The app plans to expand its coverage to include
-              additional wilderness areas.
-            </p>
-          </div>
-          <div className={styles.projectItem}>
-            <span>03</span>
-            <div className={styles.projectLinkContainer}>
-              <h3>circle</h3>
-              <span>(deprecated)</span>
-            </div>
-            <p>
-              Circle was an iOS and Android app aimed at promoting mindfulness
-              and tranquility. Utilizing AI, it offered personalized guided
-              meditation sessions, helping users incorporate peace and
-              mindfulness into their daily lives. Though no longer available,
-              its concept focused on personal well-being.
+              A trail conditions app for hikers and backpackers exploring the
+              San Gorgonio Wilderness. Share and access up-to-date trail
+              information to enhance safety and enjoyment. Expansion to
+              additional wilderness areas is on the horizon.
             </p>
           </div>
           <div className={styles.projectItem}>
             <span>04</span>
-            <div className={styles.projectLinkContainer}>
-              <Link
-                className={styles.projectLink}
-                href="https://www.daily-qs.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Daily Q's (opens in a new tab)"
-              >
-                daily q’s
-              </Link>
-            </div>
-            <p>
-              An app for couples in love. Daily Q’s encourages new shares,
-              providing you and your partner with thoughtful questions and sweet
-              moments throughout the day.
-            </p>
-          </div>
-          <div className={styles.projectItem}>
-            <span>05</span>
             <div className={styles.projectLinkContainer}>
               <Link
                 className={styles.projectLink}
@@ -125,16 +104,15 @@ export default function Home() {
             </div>
             <div className={styles.projectLinkContainer}>
               <p>
-                Big Bear Conditions is a web application for the Big Bear area,
-                offering locals and visitors a platform to check and share the
-                latest weather and road conditions. This community-driven tool
-                aims to ensure safe and enjoyable experiences for all visiting
-                or living in the area.
+                A community-driven platform for sharing real-time weather and
+                road conditions in the Big Bear area. Designed for locals and
+                visitors alike, it ensures safer and more informed travel
+                experiences.
               </p>
             </div>
           </div>
           <div className={styles.projectItem}>
-            <span>06</span>
+            <span>05</span>
             <div className={styles.projectLinkContainer}>
               <Link
                 className={styles.projectLink}
@@ -143,17 +121,39 @@ export default function Home() {
                 rel="noopener noreferrer"
                 aria-label="Replenish Big Bear Chatbot (opens in a new tab)"
               >
-                replenish big bear chatbot
+                chatbot
               </Link>
             </div>
             <div className={styles.projectLinkContainer}>
               <p>
-                Replenish Big Bear Chatbot is Retrieval-Augmented Generation
-                (RAG) app for a city project called Replenish Big Bear, which
-                provided residents with real-time access to water sustainability
-                information through AI-driven responses.
+                An app created for the Replenish Big Bear project. This
+                AI-powered chatbot provides real-time access to water
+                sustainability information, making complex topics accessible to
+                the community.
               </p>
             </div>
+          </div>
+        </div>
+        <div className={styles.experienceContainer}>
+          <div className={styles.experienceItem}>
+            <span>__________________________________</span>
+            <p>about</p>
+            <p>
+              At the heart of our work is a passion for outdoor spaces and the
+              mountain communities that make them special. Founded by{" "}
+              <Link
+                href="https://www.linkedin.com/in/andrewjsauer/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.personalLink}
+              >
+                Andrew Sauer
+              </Link>
+              , a software developer and outdoor enthusiast, our mission is to
+              empower mountain towns with innovative technology solutions that
+              enhance tourism, foster community engagement, and preserve the
+              natural beauty we all treasure.
+            </p>
           </div>
         </div>
         <div className={styles.contactContainer}>
