@@ -18,22 +18,68 @@ export default function Home() {
           </a>
         </div>
       </div>
-
       <div className={styles.container}>
         <h2 className={styles.headline}>
-          Innovation for Mountain Towns and Outdoor Spaces
+          Technology for Mountain Towns and Outdoor Spaces
         </h2>
         <div className={styles.experienceContainer}>
           <div className={styles.experienceItem}>
             <span>__________________________________</span>
             <p>intro</p>
             <p>
-              We combine innovation with a passion for the outdoors.
-              Specializing in technology solutions for mountain towns and
-              outdoor spaces, we empower communities and elevate tourism
-              experiences. By leveraging AI and cutting-edge tools, we create
-              smarter, more sustainable ways to explore, plan, and connect with
-              the natural beauty and vibrant charm of mountain living.
+              We specialize in innovative tech solutions that empower mountain
+              towns and outdoor spaces, enhancing community connection, tourism,
+              and sustainability.
+            </p>
+          </div>
+        </div>
+        <div className={styles.projectContainer}>
+          <div className={styles.projectItem}>
+            <span>01</span>
+            <div className={styles.projectLinkContainer}>
+              <h3 className={styles.projectTitle}>Tourism Tools</h3>
+            </div>
+            <p>
+              Boost visitor satisfaction and drive engagement with custom apps
+              designed for event discovery, hiking trail recommendations, and
+              lodging info. Our solutions make planning and exploring
+              effortless, keeping visitors coming back for more.
+            </p>
+          </div>
+          <div className={styles.projectItem}>
+            <span>02</span>
+            <div className={styles.projectLinkContainer}>
+              <h3 className={styles.projectTitle}>Locals</h3>
+            </div>
+            <p>
+              Build stronger connections with cutting-edge chatbots and trail
+              condition reporting tools. Empower your community with instant,
+              real-time updates that inspire trust and improve the outdoor
+              experience.
+            </p>
+          </div>
+          <div className={styles.projectItem}>
+            <span>03</span>
+            <div className={styles.projectLinkContainer}>
+              <h3 className={styles.projectTitle}>Data Analytics</h3>
+            </div>
+            <p>
+              Unlock the power of data to fuel growth. Our analytics tools
+              provide deep insights into tourism trends, visitor behavior, and
+              economic impact—helping you make smarter decisions that drive
+              results.
+            </p>
+          </div>
+          <div className={styles.projectItem}>
+            <span>04</span>
+            <div className={styles.projectLinkContainer}>
+              <h3 className={styles.projectTitle}>AI Solutions</h3>
+            </div>
+            <p>
+              Take your operations to the next level with AI-powered solutions.
+              From personalized recommendations to virtual tour guides, our
+              adaptive technology transforms outdoor spaces into smarter, more
+              efficient destinations.
             </p>
           </div>
         </div>
@@ -168,6 +214,7 @@ export default function Home() {
         </div>
         <div className={styles.footer}>
           <p>© {new Date().getFullYear()} sauerApple. All rights reserved.</p>
+          <p>Made with ❤️ in Big Bear Lake, CA</p>
         </div>
       </div>
     </main>

@@ -27,8 +27,6 @@ export const metadata: Metadata = {
     "tourism tech",
   ],
   authors: [{ name: "Andrew Sauer", url: "https://sauerapple.com" }],
-  viewport: "width=device-width, initial-scale=1",
-  themeColor: "#346830",
 };
 
 export default function RootLayout({
@@ -38,7 +36,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${crimsonText.variable} ${roboto.variable}`}>
+      <body
+        className={`${crimsonText.variable} ${roboto.variable}`}
+        style={{
+          backgroundImage: 'url("/images/background.svg")',
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          minHeight: "100vh",
+        }}
+      >
         {children}
       </body>
     </html>

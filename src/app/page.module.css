@@ -99,6 +99,16 @@
   flex-direction: column;
 }
 
+.projectTitle {
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: var(--font-roboto);
+  color: #fff;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
 .projectItem span {
   display: flex;
   justify-content: flex-start;
