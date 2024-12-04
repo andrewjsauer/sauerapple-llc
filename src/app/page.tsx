@@ -37,7 +37,7 @@ export default function Home() {
           <div className={styles.projectItem}>
             <span>01</span>
             <div className={styles.projectLinkContainer}>
-              <h3 className={styles.projectTitle}>Tourism Tools</h3>
+              <h3 className={styles.projectTitle}>tourism tools</h3>
             </div>
             <p>
               Boost visitor satisfaction and drive engagement with custom apps
@@ -49,7 +49,7 @@ export default function Home() {
           <div className={styles.projectItem}>
             <span>02</span>
             <div className={styles.projectLinkContainer}>
-              <h3 className={styles.projectTitle}>Locals</h3>
+              <h3 className={styles.projectTitle}>locals</h3>
             </div>
             <p>
               Build stronger connections with cutting-edge chatbots and trail
@@ -61,7 +61,7 @@ export default function Home() {
           <div className={styles.projectItem}>
             <span>03</span>
             <div className={styles.projectLinkContainer}>
-              <h3 className={styles.projectTitle}>Data Analytics</h3>
+              <h3 className={styles.projectTitle}>data analytics</h3>
             </div>
             <p>
               Unlock the power of data to fuel growth. Our analytics tools
@@ -73,7 +73,7 @@ export default function Home() {
           <div className={styles.projectItem}>
             <span>04</span>
             <div className={styles.projectLinkContainer}>
-              <h3 className={styles.projectTitle}>AI Solutions</h3>
+              <h3 className={styles.projectTitle}>ai solutions</h3>
             </div>
             <p>
               Take your operations to the next level with AI-powered solutions.
