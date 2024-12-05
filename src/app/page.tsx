@@ -188,7 +188,7 @@ export default function Home() {
               At the heart of our work is a passion for outdoor spaces and the
               mountain communities that make them special. Founded by{" "}
               <Link
-                href="https://www.linkedin.com/in/andrewjsauer/"
+                href="https://www.andrewjsauer.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={styles.personalLink}
