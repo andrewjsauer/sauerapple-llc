@@ -215,6 +215,12 @@ export default function Home() {
         <div className={styles.footer}>
           <p>© {new Date().getFullYear()} sauerApple. All rights reserved.</p>
           <p>Made with ❤️ in Big Bear Lake, CA</p>
+          <Link
+            href="/refund-dispute-policy"
+            className={styles.refundPolicyLink}
+          >
+            Refund and Dispute Policy
+          </Link>
         </div>
       </div>
     </main>

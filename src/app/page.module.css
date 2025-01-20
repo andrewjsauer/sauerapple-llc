@@ -195,6 +195,22 @@
   outline: none;
 }
 
+.refundPolicyLink {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 0.5px solid #fff;
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-family: var(--font-roboto);
+}
+
+.refundPolicyLink:hover,
+.refundPolicyLink:focus-visible {
+  color: #211a28;
+  border-bottom: 0.5px solid #211a28;
+  outline: none;
+}
+
 @media (max-width: 850px) {
   .main {
     padding: 1em 2em;

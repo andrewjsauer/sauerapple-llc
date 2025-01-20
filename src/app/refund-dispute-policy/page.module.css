@@ -1,0 +1,62 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1.25rem;
+}
+
+.title {
+  font-size: 2rem;
+  color: white;
+  font-family: var(--font-roboto);
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.section {
+  margin-bottom: 2rem;
+}
+
+.sectionTitle {
+  font-size: 1.5rem;
+  color: white;
+  font-family: var(--font-roboto);
+  margin-bottom: 1rem;
+}
+
+.subsectionTitle {
+  font-size: 1.25rem;
+  color: white;
+  font-family: var(--font-roboto);
+  margin-bottom: 0.75rem;
+}
+
+.paragraph {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  color: white;
+  font-family: var(--font-roboto);
+}
+
+.list {
+  margin: 1rem 0 1rem 1.5rem;
+}
+
+.listItem {
+  margin-bottom: 0.5rem;
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid #e5e7eb;
+  margin: 2rem 0;
+}
+
+.link {
+  color: white;
+  text-decoration: underline;
+  transition: opacity 0.2s;
+}
+
+.link:hover {
+  opacity: 0.8;
+}
